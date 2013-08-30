@@ -1,18 +1,13 @@
 //
-//  PApiClient.h
-//  saeapns
+//  PEApiClient.h
+//  FBImageViewController_Demo
 //
-//  Created by Eric X.u on 08/06/2013.
-//
+//  Created by Eric X.u on 30/08/2013.
+//  Copyright (c) 2013 Michael Henry Pantaleon. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-//#import "AFNetworking.h"
-//#import "TFApiUrls.h"
 
-@interface PEApiClient // : AFHTTPClient
+@interface PEApiClient : NSObject
 
-+ (PEApiClient *)sharePApiClient;
-
-- (NSInteger)loginWithIdentity:(NSString *)identity password:(NSString *)passwd;
 @end
