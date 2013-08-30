@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFNetworking.h"
-#import "TFApiUrls.h"
+//#import "AFNetworking.h"
+//#import "TFApiUrls.h"
 
-@interface PEApiClient : AFHTTPClient
+@interface PEApiClient // : AFHTTPClient
 
 + (PEApiClient *)sharePApiClient;
 
